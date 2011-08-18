@@ -49,6 +49,7 @@ To configure and run `pygsm-gateway`, complete the following steps:
 
     mkvirtualenv --distribute pygsm-gateway
     pip install -r requirements.txt
+    python setup.py install
     bin/pygsm-gateway.py
 
 * `pygsm-gateway` will boot the modem, spawn a thread to poll the modem, and
