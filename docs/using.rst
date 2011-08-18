@@ -55,7 +55,6 @@ To configure and run `pygsm-gateway`, complete the following steps:
   then start up a single-threaded HTTP server to receive outbound messages from
   RapidSMS.
 
-
 Using with rapidsms-threadless-router
 -------------------------------------
 
@@ -63,7 +62,7 @@ The `simple-http` backend in `rapidsms-threadless-router` provides the
 foundation for building http-powered services and works seamlessly with
 `pygsm-gateway`.
 
-**`simple-http` Setup**
+**simple-http Setup**
 
 * Add `http` app to ``INSTALLED_APPS``::
 
@@ -93,4 +92,4 @@ foundation for building http-powered services and works seamlessly with
     )
 
 * Now incoming requests for ``/backend/pygsm-gateway/`` will be handled by
- `rapidsms-threadless-router`.
+  `rapidsms-threadless-router`.
