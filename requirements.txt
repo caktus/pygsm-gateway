@@ -1,2 +1,2 @@
-pytz==2011h
-pygsm
+pytz
+-e git+https://github.com/rapidsms/pygsm.git#egg=pygsm
